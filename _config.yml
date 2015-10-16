@@ -23,7 +23,7 @@ github:
     docurl:                 https://github.com/edx/ux-pattern-library/wiki/
 
 # Add-ons
-edx-ui-toolkit:
+ui-toolkit:
     name: edX UI Toolkit
     repo: https://github.com/edx/edx-ui-toolkit
     path_components: /blob/master/components/views/

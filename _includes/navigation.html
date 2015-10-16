@@ -6,10 +6,18 @@
         {% for post in sorted_elements_posts %}
         <li class="nav-list-item">
             {% if page.title == "Home" %}
-            <a class="pldoc-link" href="#{{post.slug}}">{{post.title}}</a>
+            <a class="element pldoc-link" href="#{{post.slug}}">
             {% else %}
-            <a class="pldoc-link" href="{{post.url}}">{{post.title}}</a>
+            <a class="element pldoc-link" href="{{post.url}}">
             {% endif %}
+                <span class="element-title">
+                    {{post.title}}
+                </span>
+
+                {% if post.ui-toolkit-component %}
+                {% include badge-ui-toolkit.html %}
+                {% endif %}
+            </a>
         </li>
         {% endfor %}
     </ul>
