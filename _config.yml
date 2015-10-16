@@ -22,7 +22,12 @@ github:
     path_scss:              /blob/master/pattern-library/sass/
     docurl:                 https://github.com/edx/ux-pattern-library/wiki/
 
-
+# Add-ons
+edx-ui-toolkit:
+    name: edX UI Toolkit
+    repo: https://github.com/edx/edx-ui-toolkit
+    path_components: /blob/master/components/views/
+    docurl: https://github.com/edx/edx-ui-toolkit/blob/master/README.md
 
 # Plugins
 highlighter:                pygments
