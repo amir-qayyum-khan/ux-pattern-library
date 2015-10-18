@@ -3,6 +3,12 @@
 ## unreleased
 Nothing yet
 
+## 0.3.2 (2015-10-18)
+* Re-organized edx-icons SVG image fallbacks to be part of pattern-library package
+* Optimized edx-icons SVG image files
+* Automated fallback rules for edx-icons
+
+- - -
 
 ## 0.3.1 (2015-10-16)
 * Removed not used svg4everybody bower component (see 0.3.0)
