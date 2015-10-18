@@ -3,6 +3,12 @@
 ## unreleased
 Nothing yet
 
+- - -
+
+## 0.3.2 (2015-10-18)
+* creating pre-compiled static CSS versions of pattern-library base styling for use within external apps
+
+- - -
 
 ## 0.3.1 (2015-10-16)
 * Removed not used svg4everybody bower component (see 0.3.0)
