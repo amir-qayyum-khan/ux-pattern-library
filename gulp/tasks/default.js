@@ -7,7 +7,7 @@ gulp.task( 'default', function() {
         ['fonts'],
         ['images'],
         ['scripts','pldoc_scripts'],
-        'styles',
+        ['styles', 'pldoc_styles'],
         'watch'
     )
 });

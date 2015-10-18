@@ -1,20 +1,21 @@
 var gulp            = require('gulp'),
     autoprefixer    = require('gulp-autoprefixer'),
     browserSync     = require('browser-sync'),
-    config          = require('../config').styles,
     changed         = require('gulp-changed'),
+    config          = require('../config').styles,
     handleErrors    = require('../util/handleErrors'),
     sass            = require('gulp-sass'),
     sourcemaps      = require('gulp-sourcemaps');
 
-gulp.task('styles', function () {
-    return gulp.src(config.src_files)
+gulp.task('pldoc_styles', function () {
+    return gulp.src(config.pldoc_src_files)
         .pipe(sourcemaps.init())
-        .pipe(changed(config.dest)) // ignore unchanged files
+        .pipe(changed(config.pldoc_dest)) // ignore unchanged files
         .pipe(sass(config.settings_development))
         .on('error', handleErrors)
         .pipe(autoprefixer())
         .pipe(sourcemaps.write(config.settings_development.sourcemapsLocation))
-        .pipe(gulp.dest(config.dest))
+        .pipe(gulp.dest(config.pldoc_local)) // move just for browersync + uncompressed local
+        .pipe(gulp.dest(config.pldoc_dest))
         .pipe(browserSync.reload({stream:true}));
 });
