@@ -933,7 +933,7 @@
     @include border-left(rem(4) solid palette(grayscale-cool, light));
     border-radius: rem(3);
     padding: spacing-vertical(small) spacing-horizontal(base);
-    background-color: palette(grayscale-cool, x-light);
+    background-color: palette(grayscale, x-light);
 }
 
 
@@ -972,6 +972,11 @@
     border-color: palette(success, base);
 }
 
+// CASE: ui-toolkit reference
+.alert-ui-toolkit {
+    border-color: $pldoc-ui-toolkit-color;
+}
+
 
 // ------------------------------
 // #BADGES
@@ -985,9 +990,13 @@
     text-transform: uppercase;
     white-space: nowrap;
     letter-spacing: letter-spacing(loose);
+
+    .badge-abbreviation {
+        border-bottom: none;
+    }
 }
 
 .badge-ui-toolkit {
-    background-color: palette(information, light);
+    background-color: $pldoc-ui-toolkit-color;
     color: palette(grayscale-cool, x-dark);
 }
