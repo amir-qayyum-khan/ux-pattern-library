@@ -3,6 +3,7 @@
 
 // About: Contains base styling for forms
 
+// #SETTINGS
 // #GLOBAL
 // #INPUT TEXT
 // #INPUT RADIO/CHECKBOX
@@ -11,10 +12,17 @@
 // #SLIDERS
 // #PROGRESS
 
+
+// ----------------------------
+// #SETTINGS
+// ----------------------------
+// import core settings and utilities
+@import '../global/core';
+
+
 // ----------------------------
 // #GLOBAL
 // ----------------------------
-
 // sections of a form
 .form-group {
     @include clearfix();

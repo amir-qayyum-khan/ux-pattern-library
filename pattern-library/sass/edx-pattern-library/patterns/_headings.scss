@@ -3,21 +3,23 @@
 
 // About: Contains base styling for headings (leading type for sections of content and UI).
 
-// CONFIG
+// SEATTINGS
 // #GLOBAL
-// #INDIVIDUAL HEADINGS
+// #INDIVIDUAL CASES
 // #CANNED
 
 
 // ----------------------------
-// #CONFIG
+// #SETTINGS
 // ----------------------------
+// import core settings and utilities
+@import '../global/core';
+
 $headings-count: 8;
 
 // ----------------------------
 // #GLOBAL
 // ----------------------------
-
 // broad stroke extend for emphasized/de-emphasized headings
 %headings-emphasized {
     color: $headings-emphasized-color;
@@ -56,7 +58,7 @@ $headings-count: 8;
 
 
 // ----------------------------
-// #INDIVIDUAL HEADINGS
+// #INDIVIDUAL CASES
 // ----------------------------
 // Level one heading
 %hd-1 {

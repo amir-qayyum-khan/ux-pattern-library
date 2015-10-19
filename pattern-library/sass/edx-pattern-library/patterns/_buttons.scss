@@ -4,7 +4,8 @@
 // About: Contains base styling for demonstration and utility for buttons.
 // ----------------------------
 
-// #GLOBALS
+// #SETTINGS
+// #GLOBAL
 // #BASE (size)
 // #LARGE (size)
 // #SMALL (size)
@@ -18,8 +19,16 @@
 // #OVERLAY (type)
 // ----------------------------
 
+
 // ----------------------------
-// #GLOBALS
+// #SETTINGS
+// ----------------------------
+// import core settings and utilities
+@import '../global/core';
+
+
+// ----------------------------
+// #GLOBAL
 // ----------------------------
 .btn {
     @include transition(

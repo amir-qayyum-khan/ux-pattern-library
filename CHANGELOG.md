@@ -3,6 +3,14 @@
 ## unreleased
 Nothing yet
 
+- - -
+
+## 0.4.0 (2015-10-19)
+* Reconfigured preset Sass organization and compilation to make customization of patterns easier. Patterns now import the settings they need
+* Cleaned up formatting and terminology within Sass inline documentation
+
+- - -
+
 
 ## 0.3.1 (2015-10-16)
 * Removed not used svg4everybody bower component (see 0.3.0)

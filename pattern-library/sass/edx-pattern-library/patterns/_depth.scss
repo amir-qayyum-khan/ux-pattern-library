@@ -2,23 +2,25 @@
 // edX Pattern Library: Components - UI Depth
 
 // About: Contains base settings and options for the preset default Pattern Library UI depth levels.
-// ----------------------------
 
-// #CONFIG
+// #SETTINGS
 // #UTILITY
 // #CANNED
 
-// ----------------------------
 
 // ----------------------------
-// #CONFIG
+// #SETTINGS
 // ----------------------------
+// import core settings and utilities
+@import '../global/core';
+
 $depth--3-bg:   palette(grayscale-cool, x-dark)   !default;  // -3 depth level
 $depth--2-bg:   palette(grayscale-cool, dark)   !default;  // -2 depth level
 $depth--1-bg:   palette(grayscale, x-light)   !default;  // -1 depth level
 $depth-0-bg:    palette(grayscale, xx-light)   !default;  // -0 depth level
 $depth-1-bg:    palette(grayscale, white)   !default;  // +1 depth level
 $depth-2-bg:    palette(grayscale, white)   !default;  // +2 depth level
+
 
 // ----------------------------
 // #UTILITY
