@@ -3,6 +3,12 @@
 ## unreleased
 Nothing yet
 
+- - -
+
+## 0.3.2 (2015-10-19)
+* Removed _colors.scss as a main pattern (since it was only providing supportive styling for the documentation site) and placed its rules within the documentation site's Sass.
+
+- - -
 
 ## 0.3.1 (2015-10-16)
 * Removed not used svg4everybody bower component (see 0.3.0)
